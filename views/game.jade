@@ -1,0 +1,16 @@
+script(src='/js/cookie.js')  
+#left
+	#myname (正在登录中...)  
+	#loadding 正在登录中...
+	#pairs
+	#do <span id="disconnect"  >断开</span>
+	#room  
+#right
+	//在线列表区域
+	#nicknames.scrollbar 
+	
+
+script(type="text/javascript")
+	var userName = '#{name}';
+	$('#myname').html('当前登录用户：'+userName);  
+script(src='/js/game.js')
